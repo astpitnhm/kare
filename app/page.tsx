@@ -644,9 +644,9 @@ export default function KARELandingPage() {
       {/* Health Minister Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <Card className="border-0 shadow-xl overflow-hidden">
+          <Card className="border-0 shadow-xl overflow-hidden md:py-0 md:pt-6">
             <div className="grid md:grid-cols-3 gap-0">
-              <div className="relative h-64 md:h-auto">
+              <div className="relative h-96 md:h-auto">
                 <Image
                   src="/hm-portrait.png"
                   alt="Health Minister"
