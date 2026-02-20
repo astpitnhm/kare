@@ -591,8 +591,8 @@ export default function KARELandingPage() {
             </p>
           </div>
 
-          <Card className="border-2 border-[#F5A623] shadow-xl">
-            <CardHeader className="text-center bg-linear-to-r from-[#FEF3C7] to-[#FDE68A] rounded-t-lg">
+          <Card className="border-2 border-[#F5A623] shadow-xl pt-0">
+            <CardHeader className="text-center bg-linear-to-r pt-6 pb-3 from-[#FEF3C7] to-[#FDE68A] rounded-t-xl">
               <CardTitle className="text-2xl text-gray-900 flex items-center justify-center gap-2">
                 <HeartHandshake className="w-7 h-7 text-[#F5A623]" />
                 Bank Details for Donation
