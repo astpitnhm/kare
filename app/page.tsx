@@ -642,7 +642,7 @@ export default function KARELandingPage() {
       </section>
 
       {/* Health Minister Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-50 hidden">
         <div className="max-w-6xl mx-auto px-4">
           <Card className="border-0 shadow-xl overflow-hidden md:py-0 md:pt-6">
             <div className="grid md:grid-cols-3 gap-0">
