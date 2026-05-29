@@ -641,34 +641,109 @@ export default function KARELandingPage() {
         </div>
       </section>
 
-      {/* Health Minister Section */}
-      <section className="py-20 bg-gray-50 hidden">
+      {/* Leadership Section */}
+      <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <Card className="border-0 shadow-xl overflow-hidden md:py-0 md:pt-6">
-            <div className="grid md:grid-cols-3 gap-0">
-              <div className="relative h-96 md:h-auto">
+          <div className="text-center mb-16">
+            <Badge className="bg-[#E6FFFA] text-[#006B6B] border-[#006B6B]/20 mb-4">
+              Leadership
+            </Badge>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Guided by Visionary Leaders
+            </h2>
+          </div>
+
+          {/* Chief Minister & Health Minister */}
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <Card className="border-0 shadow-xl overflow-hidden text-center p-8">
+              <div className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden">
                 <Image
-                  src="/hm-portrait.png"
-                  alt="Health Minister"
+                  src="/V.D-Satheesan.png"
+                  alt="Chief Minister of Kerala"
                   fill
                   className="object-cover object-top"
                 />
               </div>
-              <div className="md:col-span-2 p-8 md:p-12 flex flex-col justify-center">
-                <blockquote className="text-xl md:text-2xl text-gray-700 italic mb-6 leading-relaxed">
-                  &ldquo;Kerala&apos;s model has shown that early diagnosis, multidisciplinary care, and timely 
-                  drug access can transform outcomes in rare diseases like SMA. KARE represents our commitment 
-                  to ensuring no child is left behind due to the rarity of their condition.&rdquo;
-                </blockquote>
-                <cite className="text-[#006B6B] font-semibold text-lg not-italic">
-                  Veena George
-                  <span className="block text-gray-500 font-normal text-sm">
-                    Minister for Health &amp; Family Welfare, Kerala
-                  </span>
-                </cite>
+              <h3 className="text-2xl font-semibold text-gray-900">
+                Shri. V. D. Satheesan
+              </h3>
+              <p className="text-sm text-gray-500">
+                Hon. Chief Minister of Kerala
+              </p>
+            </Card>
+
+            <Card className="border-0 shadow-xl overflow-hidden text-center p-8">
+              <div className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden">
+                <Image
+                  src="/muraleedharan.png"
+                  alt="Minister for Health"
+                  fill
+                  className="object-cover object-top"
+                />
               </div>
-            </div>
-          </Card>
+              <h3 className="text-2xl font-semibold text-gray-900">
+                Shri. K. Muraleedharan
+              </h3>
+              <p className="text-sm text-gray-500">Minister for Health</p>
+            </Card>
+          </div>
+
+          {/* Officials */}
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Dr. Rajan N. Khobragade IAS */}
+            <Card className="border-0 shadow-lg text-center p-6">
+              <div className="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
+                <Image
+                  src="/Dr-Rajan-N-Khobragade.png"
+                  alt="Dr. Rajan N. Khobragade IAS"
+                  fill
+                  className="object-cover object-top"
+                />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900">
+                Dr. Rajan N. Khobragade IAS
+              </h3>
+              <p className="text-sm text-gray-500">
+                Additional Chief Secretary, Department of Health & Family Welfare
+              </p>
+            </Card>
+
+            {/* Rahul Krishna Sharma IAS */}
+            <Card className="border-0 shadow-lg text-center p-6">
+              <div className="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
+                <Image
+                  src="/Rahul-Krishna-Sharma-IAS.png"
+                  alt="Rahul Krishna Sharma IAS"
+                  fill
+                  className="object-cover object-top"
+                />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900">
+                Rahul Krishna Sharma IAS
+              </h3>
+              <p className="text-sm text-gray-500">
+                State Mission Director, National Health Mission (NHM)
+              </p>
+            </Card>
+
+            {/* Dr. Reena K J */}
+            <Card className="border-0 shadow-lg text-center p-6">
+              <div className="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
+                <Image
+                  src="/Dr-Reena-KJ.png"
+                  alt="Dr. Reena K J"
+                  fill
+                  className="object-cover object-top"
+                />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900">
+                Dr. Reena K J
+              </h3>
+              <p className="text-sm text-gray-500">
+                Director, Directorate of Health Services (DHS)
+              </p>
+            </Card>
+          </div>
         </div>
       </section>
 
