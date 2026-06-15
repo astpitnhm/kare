@@ -726,21 +726,21 @@ export default function KARELandingPage() {
               </p>
             </Card>
 
-            {/* Dr. Reena K J */}
+            {/* Sri. Anu S. Nair, IAS */}
             <Card className="border-0 shadow-lg text-center p-6">
               <div className="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
                 <Image
-                  src="/Dr-Reena-KJ.png"
-                  alt="Dr. Reena K J"
+                  src="/Anu s Nair IAS.jpg.jpeg"
+                  alt="Sri. Anu S. Nair, IAS"
                   fill
                   className="object-cover object-top"
                 />
               </div>
               <h3 className="text-2xl font-semibold text-gray-900">
-                Dr. Reena K J
+                Sri. Anu S. Nair, IAS
               </h3>
               <p className="text-sm text-gray-500">
-                Director, Directorate of Health Services (DHS)
+                State Mission Director, National Health Mission (NHM)
               </p>
             </Card>
           </div>
