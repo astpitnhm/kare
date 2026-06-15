@@ -708,21 +708,21 @@ export default function KARELandingPage() {
               </p>
             </Card>
 
-            {/* Rahul Krishna Sharma IAS */}
+            {/* Sharmila Mary Joseph IAS */}
             <Card className="border-0 shadow-lg text-center p-6">
               <div className="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
                 <Image
-                  src="/Rahul-Krishna-Sharma-IAS.png"
-                  alt="Rahul Krishna Sharma IAS"
+                  src="/sharmila mary IAS.png"
+                  alt="Dr. Sharmila Mary IAS"
                   fill
                   className="object-cover object-top"
                 />
               </div>
               <h3 className="text-2xl font-semibold text-gray-900">
-                Rahul Krishna Sharma IAS
+                Dr.Sharmila Mary Joseph IAS
               </h3>
               <p className="text-sm text-gray-500">
-                State Mission Director, National Health Mission (NHM)
+                Principle Secretary, Health and Family Welfare Department, Government of Kerala
               </p>
             </Card>
 
